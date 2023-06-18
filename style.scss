@@ -1,12 +1,11 @@
-<<<<<<< HEAD:manaba未提出課題隠す/style.scss
-// 2023/06/18 GitHubに追加
-
 .button {
     display: block;
     text-align: center;
+    //vertical-align: middle;
     text-decoration: none;
     width: 140px;
     margin: auto;
+    //padding: 1rem 4rem;
     font-weight: bold;
     border: 2px solid rgba(77, 157, 1, 0.6);
     color: #fff;
@@ -20,25 +19,4 @@
 .button:hover {
     color: rgba(77, 157, 1, 0.6);
     background: #fff;
-=======
-.button {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 140px;
-    margin: auto;
-    font-weight: bold;
-    border: 2px solid rgba(77, 157, 1, 0.6);
-    color: #fff;
-    transition: 0.1s;
-    background: rgba(77, 157, 1, 0.6);
-
-    cursor: pointer;
-}
-
-
-.button:hover {
-    color: rgba(77, 157, 1, 0.6);
-    background: #fff;
->>>>>>> 16c894483a182a0b1a7085485029bdac28ea4d99:style.scss
 }
