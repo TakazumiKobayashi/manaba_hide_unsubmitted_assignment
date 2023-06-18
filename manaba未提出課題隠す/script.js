@@ -1,6 +1,8 @@
 ///localStorage.removeItem("hideDisplay");
 ///localStorage.removeItem("displayURL");
 
+//20230618
+
 //前回表示時のurl情報取得
 let urlPre = localStorage.getItem("displayURL");
 if (urlPre) {
