@@ -14,3 +14,4 @@
 
 ※本拡張機能は大学非公式のものであり，本拡張機能により不利益が生じた場合も責任は取りかねます。
 
+[配布先](https://chrome.google.com/webstore/detail/manaba%E6%9C%AA%E6%8F%90%E5%87%BA%E8%AA%B2%E9%A1%8C%E3%82%92%E9%9A%A0%E3%81%99/jaenngkigiiphcijdfeamkfnpclopfbi?hl=ja)
