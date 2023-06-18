@@ -1,6 +1,3 @@
-///localStorage.removeItem("hideDisplay");
-///localStorage.removeItem("displayURL");
-
 //前回表示時のurl情報取得
 let urlPre = localStorage.getItem("displayURL");
 if (urlPre) {
@@ -176,6 +173,3 @@ for (let i = 1; i < Return.length; i++) {
         }
     }
 }
-
-///localStorage.removeItem("hideDisplay");
-///localStorage.removeItem("displayURL");
