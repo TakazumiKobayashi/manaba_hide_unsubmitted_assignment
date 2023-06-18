@@ -1,3 +1,5 @@
+// 2023/06/18 GitHubに追加
+
 //前回表示時のurl情報取得
 let urlPre = localStorage.getItem("displayURL");
 if (urlPre) {
