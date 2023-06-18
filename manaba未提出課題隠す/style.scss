@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    text-align: center;
+    //vertical-align: middle;
+    text-decoration: none;
+    width: 140px;
+    margin: auto;
+    //padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid rgba(77, 157, 1, 0.6);
+    color: #fff;
+    transition: 0.1s;
+    background: rgba(77, 157, 1, 0.6);
+
+    cursor: pointer;
+}
+
+
+.button:hover {
+    color: rgba(77, 157, 1, 0.6);
+    background: #fff;
+}
