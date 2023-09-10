@@ -15,7 +15,10 @@
     "content_scripts" : [
         {
             "matches":[
-                "https://manaba.tsukuba.ac.jp/ct/home_library_query"
+                "https://manaba.tsukuba.ac.jp/ct/home_library_query*"
+            ],
+            "exclude_matches":[
+                "https://manaba.tsukuba.ac.jp/ct/home_library_query_listedit"
             ],
             "js":[
                 "script.js"
