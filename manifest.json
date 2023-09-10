@@ -1,6 +1,6 @@
 {
     "name": "manaba未提出課題を隠す",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "manifest_version" :3,
     "description" :"未提出課題一覧の任意の課題を隠します",
     "icons": {
