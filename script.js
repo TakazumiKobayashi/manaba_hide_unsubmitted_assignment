@@ -73,7 +73,7 @@ content[0].appendChild(title);
 
 //隠した科目用の表作成
 let tableHide = document.getElementsByClassName("stdlist")[0].cloneNode(true);
-tableHide.getElementsByTagName("th")[5].textContent = "戻す";
+tableHide.getElementsByTagName("th")[6].textContent = "戻す";
 for (let i = 1; i < tableHide.rows.length; i++){
     tableHide.getElementsByTagName("tr")[i].style.display = "none";
     tableHide.getElementsByTagName("tr")[i].getElementsByTagName("button")[0].remove();
@@ -82,7 +82,7 @@ for (let i = 1; i < tableHide.rows.length; i++){
     Return[i].style.fontSize = "11px";
     Return[i].style.width = "100%";
     Return[i].textContent = "戻す";
-    tableHide.getElementsByTagName("tr")[i].getElementsByTagName("td")[5].appendChild(Return[i]);
+    tableHide.getElementsByTagName("tr")[i].getElementsByTagName("td")[6].appendChild(Return[i]);
 }
 tableHide.style.display = tableHideDisplay;
 content[0].appendChild(tableHide);
